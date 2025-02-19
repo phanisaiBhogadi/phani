@@ -1,0 +1,19 @@
+{
+  "name": "furniture-order-app",
+  "version": "1.0.0",
+  "description": "Furniture ordering backend with payment and WhatsApp notifications",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "razorpay": "^2.8.0",
+    "dotenv": "^16.0.0",
+    "cors": "^2.8.5",
+    "body-parser": "^1.19.0",
+    "twilio": "^3.82.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Phani Sai Bhogadi",
+  "license": "ISC"
+}
